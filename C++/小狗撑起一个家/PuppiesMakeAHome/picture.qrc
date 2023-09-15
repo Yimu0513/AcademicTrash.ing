@@ -1,0 +1,51 @@
+<RCC>
+    <qresource prefix="/dog">
+        <file>img/Beagles.png</file>
+        <file>img/borderCollie.png</file>
+        <file>img/bullTerrier.png</file>
+        <file>img/Chihuahua.png</file>
+        <file>img/Dalmatians.png</file>
+        <file>img/german.png</file>
+        <file>img/husky.png</file>
+        <file>img/Mastiff.png</file>
+        <file>img/newmember.png</file>
+        <file>img/doberman.png</file>
+        <file>img/shetland.png</file>
+    </qresource>
+    <qresource prefix="/main">
+        <file>img/store.png</file>
+        <file>img/favicon.ico</file>
+        <file>img/shopping.png</file>
+        <file>img/Mouse.png</file>
+        <file>img/background.png</file>
+        <file>img/homeshow.png</file>
+        <file>img/opinions_background.png</file>
+        <file>img/statebackground.png</file>
+        <file>img/opinions.png</file>
+        <file>img/state.png</file>
+        <file>img/eat_opinion.png</file>
+    </qresource>
+    <qresource prefix="/help">
+        <file>img/balance.png</file>
+        <file>img/energy.png</file>
+        <file>img/love.png</file>
+        <file>img/newnew.png</file>
+    </qresource>
+    <qresource prefix="/welcome">
+        <file>img/welcome.png</file>
+    </qresource>
+    <qresource prefix="/saveandread">
+        <file>img/save.png</file>
+        <file>img/restart.png</file>
+        <file>img/read.png</file>
+    </qresource>
+    <qresource prefix="/store">
+        <file>img/bonse.png</file>
+        <file>img/medicine .png</file>
+        <file>img/dogfood.png</file>
+    </qresource>
+    <qresource prefix="/honor">
+        <file>img/honorback.png</file>
+        <file>img/honor2.png</file>
+    </qresource>
+</RCC>

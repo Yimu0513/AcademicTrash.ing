@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/main">
+        <file>img/background.png</file>
+        <file>img/store.png</file>
+    </qresource>
+    <qresource prefix="/dog">
+        <file>img/Beagles.png</file>
+        <file>img/borderCollie.png</file>
+        <file>img/bullTerrier.png</file>
+        <file>img/Chihuahua.png</file>
+        <file>img/Dalmatians.png</file>
+        <file>img/doberman.png</file>
+        <file>img/german.png</file>
+        <file>img/husky.png</file>
+        <file>img/Mastiff.png</file>
+        <file>img/shetland.png</file>
+    </qresource>
+    <qresource prefix="/store">
+        <file>img/bones .png</file>
+        <file>img/dogfood.png</file>
+        <file>img/medicine.png</file>
+    </qresource>
+    <qresource prefix="/title">
+        <file>img/favicon.ico</file>
+    </qresource>
+</RCC>

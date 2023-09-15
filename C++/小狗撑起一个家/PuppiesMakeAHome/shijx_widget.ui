@@ -1,0 +1,1975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShiJX_Widget</class>
+ <widget class="QWidget" name="ShiJX_Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1282</width>
+    <height>792</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ShiJX_Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QStackedWidget#stackedWidget QPushButton:hover
+{
+	background-color: rgb(234, 195, 182);
+}
+border-color: rgb(255, 255, 255);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="toolTipDuration">
+      <number>0</number>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image:url(:/saveandread/img/read.png);</string>
+     </property>
+     <property name="currentIndex">
+      <number>2</number>
+     </property>
+     <widget class="QWidget" name="start">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/welcome/img/welcome.png);</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_start">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>620</y>
+         <width>230</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 24pt &quot;华文琥珀&quot;;
+color: rgb(255, 255, 255);
+background-color: rgb(4, 48, 92);
+border-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>开始游戏</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="honor">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/honor/img/honorback.png);</string>
+      </property>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>400</y>
+         <width>201</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/honor/img/honor2.png);
+color: rgb(227, 125, 63);
+font: 14pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>400</y>
+         <width>201</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/honor/img/honor2.png);
+color: rgb(227, 125, 63);
+font: 14pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>840</x>
+         <y>400</y>
+         <width>201</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/honor/img/honor2.png);
+color: rgb(227, 125, 63);
+font: 14pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>700</y>
+         <width>201</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/honor/img/honor2.png);
+color: rgb(227, 125, 63);
+font: 14pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>700</y>
+         <width>201</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/honor/img/honor2.png);
+color: rgb(227, 125, 63);
+font: 14pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>840</x>
+         <y>700</y>
+         <width>201</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/honor/img/honor2.png);
+color: rgb(227, 125, 63);
+font: 14pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>30</y>
+         <width>201</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 211, 160);
+font: 20pt &quot;华文琥珀&quot;;
+background-image: url(:/main/img/store.png);
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>回家</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>200</y>
+         <width>231</width>
+         <height>191</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>爱心数量达到1，可获得称号“爱心家庭”</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>0</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent; </string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>200</y>
+         <width>231</width>
+         <height>191</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>爱心数量达到10，可获称号“爱心大侠”</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>0</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent; </string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>830</x>
+         <y>200</y>
+         <width>231</width>
+         <height>191</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>爱心数量达到20，可获得称号”爱心超人“</string>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent; </string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>500</y>
+         <width>231</width>
+         <height>191</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>金币数达到66，可得称号”财富初生“</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>0</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent; </string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>500</y>
+         <width>231</width>
+         <height>191</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>金币数量到达100，可获得称号”金币大亨“</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>0</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent; </string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>500</y>
+         <width>231</width>
+         <height>191</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>金币数量达到666，可获得称号”百万富翁“</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>0</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: transparent; </string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="home">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/main/img/background.png);</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_gotostore">
+       <property name="geometry">
+        <rect>
+         <x>1030</x>
+         <y>30</y>
+         <width>211</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 211, 160);
+font: 20pt &quot;华文琥珀&quot;;
+background-image: url(:/main/img/store.png);
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>去商店</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_exit">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>211</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 211, 160);
+font: 20pt &quot;华文琥珀&quot;;
+background-image: url(:/main/img/store.png);
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>退出游戏</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_newmember">
+       <property name="geometry">
+        <rect>
+         <x>1030</x>
+         <y>100</y>
+         <width>211</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 211, 160);
+font: 20pt &quot;华文琥珀&quot;;
+background-image: url(:/main/img/store.png);
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>领养新成员</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_help">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>240</y>
+         <width>211</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 211, 160);
+font: 20pt &quot;华文琥珀&quot;;
+background-image: url(:/main/img/store.png);
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>帮助</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_read">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>100</y>
+         <width>211</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 211, 160);
+font: 20pt &quot;华文琥珀&quot;;
+background-image: url(:/main/img/store.png);
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>读档</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_save">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>170</y>
+         <width>211</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 211, 160);
+font: 20pt &quot;华文琥珀&quot;;
+background-image: url(:/main/img/store.png);
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>存档</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_Title">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>40</y>
+         <width>201</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/main/img/homeshow.png);
+color: rgb(227, 125, 63);
+font: 14pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_Wealth">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>40</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/main/img/homeshow.png);
+color: rgb(227, 125, 63);
+font: 14pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_Love">
+       <property name="geometry">
+        <rect>
+         <x>690</x>
+         <y>40</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/main/img/homeshow.png);
+color: rgb(227, 125, 63);
+font: 14pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_beagles">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>430</y>
+         <width>131</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="toolTipDuration">
+        <number>0</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/dog/img/Beagles.png);
+background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_chihuahua">
+       <property name="geometry">
+        <rect>
+         <x>560</x>
+         <y>460</y>
+         <width>131</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <property name="toolTipDuration">
+        <number>0</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/dog/img/Chihuahua.png);
+background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_Dalmatians">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>350</y>
+         <width>151</width>
+         <height>301</height>
+        </rect>
+       </property>
+       <property name="toolTipDuration">
+        <number>0</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/dog/img/Dalmatians.png);
+background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_Mastiff">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>370</y>
+         <width>171</width>
+         <height>281</height>
+        </rect>
+       </property>
+       <property name="toolTipDuration">
+        <number>0</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/dog/img/Mastiff.png);
+background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_borderCollie">
+       <property name="geometry">
+        <rect>
+         <x>560</x>
+         <y>400</y>
+         <width>131</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="toolTipDuration">
+        <number>0</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/dog/img/borderCollie.png);
+background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_bullTerrier">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>390</y>
+         <width>151</width>
+         <height>251</height>
+        </rect>
+       </property>
+       <property name="toolTipDuration">
+        <number>0</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/dog/img/bullTerrier.png);
+background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_doberman">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>290</y>
+         <width>146</width>
+         <height>361</height>
+        </rect>
+       </property>
+       <property name="toolTipDuration">
+        <number>0</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/dog/img/doberman.png);
+background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_german">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>330</y>
+         <width>128</width>
+         <height>311</height>
+        </rect>
+       </property>
+       <property name="toolTipDuration">
+        <number>0</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/dog/img/german.png);
+background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_husky">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>400</y>
+         <width>131</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="toolTipDuration">
+        <number>0</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/dog/img/husky.png);
+background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_shetland">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>340</y>
+         <width>141</width>
+         <height>301</height>
+        </rect>
+       </property>
+       <property name="toolTipDuration">
+        <number>0</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/dog/img/shetland.png);
+background-color: rgba(255, 255, 255, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QWidget" name="opinion" native="true">
+       <property name="geometry">
+        <rect>
+         <x>740</x>
+         <y>250</y>
+         <width>371</width>
+         <height>411</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/main/img/opinions.png);</string>
+       </property>
+       <widget class="QPushButton" name="dowork">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>90</y>
+          <width>271</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="toolTipDuration">
+         <number>0</number>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 20pt &quot;华文琥珀&quot;;
+color: rgb(208, 146, 98);
+background-color: rgb(254, 234, 209);
+background-image: url(:/main/img/opinions_background.png);</string>
+        </property>
+        <property name="text">
+         <string>外出打工</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="dohousework">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>188</y>
+          <width>271</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="toolTipDuration">
+         <number>0</number>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 20pt &quot;华文琥珀&quot;;
+color: rgb(208, 146, 98);
+background-color: rgb(254, 234, 209);
+background-image: url(:/main/img/opinions_background.png);</string>
+        </property>
+        <property name="text">
+         <string>做家务</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="eat">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>280</y>
+          <width>271</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="toolTipDuration">
+         <number>0</number>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 20pt &quot;华文琥珀&quot;;
+color: rgb(208, 146, 98);
+background-color: rgb(254, 234, 209);
+background-image: url(:/main/img/opinions_background.png);</string>
+        </property>
+        <property name="text">
+         <string>补充能量</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="exit">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>13</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="toolTipDuration">
+         <number>0</number>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 15pt &quot;华文琥珀&quot;;
+color: rgb(53, 53, 53);
+background-color: rgb(254, 234, 209);
+background-image: url(:/main/img/opinions_background.png);</string>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="eateat" native="true">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>400</y>
+         <width>331</width>
+         <height>261</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/main/img/eat_opinion.png);</string>
+       </property>
+       <widget class="QSpinBox" name="dogfood">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>60</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="bonse">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>127</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QSpinBox" name="medicine">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>190</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_dogfood_2">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>60</y>
+          <width>71</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-image: url(:/main/img/opinions_background.png);
+font: 16pt &quot;华文琥珀&quot;;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_bonse_2">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>128</y>
+          <width>71</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-image: url(:/main/img/opinions_background.png);
+font: 16pt &quot;华文琥珀&quot;;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_medicine_2">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>190</y>
+          <width>71</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-image: url(:/main/img/opinions_background.png);
+font: 16pt &quot;华文琥珀&quot;;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="feed">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>7</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="toolTipDuration">
+         <number>0</number>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;华文琥珀&quot;;
+color: rgb(53, 53, 53);
+background-color: rgb(254, 234, 209);
+background-image: url(:/main/img/opinions_background.png);</string>
+        </property>
+        <property name="text">
+         <string>投喂</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="exit_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>7</y>
+          <width>93</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="toolTipDuration">
+         <number>0</number>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;华文琥珀&quot;;
+color: rgb(53, 53, 53);
+background-color: rgb(254, 234, 209);
+background-image: url(:/main/img/opinions_background.png);</string>
+        </property>
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+       <zorder>bonse</zorder>
+       <zorder>medicine</zorder>
+       <zorder>feed</zorder>
+       <zorder>exit_2</zorder>
+       <zorder>label_dogfood_2</zorder>
+       <zorder>label_bonse_2</zorder>
+       <zorder>label_medicine_2</zorder>
+       <zorder>dogfood</zorder>
+      </widget>
+      <widget class="QLabel" name="label_dogname">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>700</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/main/img/homeshow.png);
+color: rgb(227, 125, 63);
+font: 14pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_energy">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>700</y>
+         <width>151</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/main/img/homeshow.png);
+color: rgb(227, 125, 63);
+font: 14pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_value">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>700</y>
+         <width>161</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/main/img/homeshow.png);
+color: rgb(227, 125, 63);
+font: 14pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_state">
+       <property name="geometry">
+        <rect>
+         <x>850</x>
+         <y>700</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/main/img/homeshow.png);
+color: rgb(227, 125, 63);
+font: 14pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_honor">
+       <property name="geometry">
+        <rect>
+         <x>1030</x>
+         <y>170</y>
+         <width>211</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 211, 160);
+font: 20pt &quot;华文琥珀&quot;;
+background-image: url(:/main/img/store.png);
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>荣誉</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_Time">
+       <property name="geometry">
+        <rect>
+         <x>840</x>
+         <y>40</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/main/img/homeshow.png);
+color: rgb(227, 125, 63);
+font: 14pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="store">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/main/img/shopping.png);
+
+</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_gohome">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>60</y>
+         <width>111</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 211, 160);
+font: 20pt &quot;华文琥珀&quot;;
+background-image: url(:/main/img/store.png);
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>回家</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_dogfood">
+       <property name="geometry">
+        <rect>
+         <x>1130</x>
+         <y>280</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_bonse">
+       <property name="geometry">
+        <rect>
+         <x>1130</x>
+         <y>340</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_medicin">
+       <property name="geometry">
+        <rect>
+         <x>1130</x>
+         <y>400</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cost">
+       <property name="geometry">
+        <rect>
+         <x>1131</x>
+         <y>484</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_buy">
+       <property name="geometry">
+        <rect>
+         <x>1070</x>
+         <y>60</y>
+         <width>111</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 211, 160);
+font: 20pt &quot;华文琥珀&quot;;
+background-image: url(:/main/img/store.png);
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>结算</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_bonse">
+       <property name="geometry">
+        <rect>
+         <x>162</x>
+         <y>353</y>
+         <width>323</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>小零食骨头，每份提供3点能量。</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>5000</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/store/img/bonse.png);</string>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_dogfood">
+       <property name="geometry">
+        <rect>
+         <x>518</x>
+         <y>293</y>
+         <width>407</width>
+         <height>215</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>主食狗粮，每份提供5点能量。</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>5000</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/store/img/dogfood.png);</string>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_medicine">
+       <property name="geometry">
+        <rect>
+         <x>513</x>
+         <y>527</y>
+         <width>411</width>
+         <height>154</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>药物，生病必备。每份提供1点能量</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>5000</number>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/store/img/medicine .png);</string>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_balance">
+       <property name="geometry">
+        <rect>
+         <x>1140</x>
+         <y>635</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(244, 147, 53);
+font: 20pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="NewMember">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/dog/img/newmember.png);</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_home">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>40</y>
+         <width>131</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>华文琥珀</family>
+         <pointsize>20</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 211, 160);
+font: 20pt &quot;华文琥珀&quot;;
+background-image: url(:/main/img/store.png);
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>回家</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Chihuahua">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>370</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>吉娃娃聪颖、活泼、黏人，行动警惕，十分勇敢。</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>5000</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;
+font: 16pt &quot;华文琥珀&quot;;
+color:black;</string>
+       </property>
+       <property name="text">
+        <string>1-吉娃娃</string>
+       </property>
+       <property name="textInteractionFlags">
+        <set>Qt::NoTextInteraction</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="beagles">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>370</y>
+         <width>121</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>比格犬的性格温顺，忠诚认主，头脑聪明，学习能力强。</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>5000</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;
+font: 16pt &quot;华文琥珀&quot;;
+color:black;</string>
+       </property>
+       <property name="text">
+        <string>2-比格犬</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="boderCollie">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>370</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>边牧性情很温和，容忍性好,警惕性高,热情,服从性高。</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>5000</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;
+font: 16pt &quot;华文琥珀&quot;;
+color:black;</string>
+       </property>
+       <property name="text">
+        <string>3-边境牧羊犬</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="masstiff">
+       <property name="geometry">
+        <rect>
+         <x>650</x>
+         <y>370</y>
+         <width>171</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>马士提夫犬性格沉稳、和善、忠实,活力充沛,具有强烈的攻击性。</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>5000</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;
+font: 16pt &quot;华文琥珀&quot;;
+color:black;</string>
+       </property>
+       <property name="text">
+        <string>4-马士提夫犬</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="bullTerrier">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>730</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>牛头梗看起来很凶，但对人友好，十分忠诚。</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>5000</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;
+font: 16pt &quot;华文琥珀&quot;;
+color:black;</string>
+       </property>
+       <property name="text">
+        <string>5-牛头梗</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Dalmatians">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>730</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>斑点狗性格很温顺，对主人忠诚，肌肉强壮，充满活力。</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>5000</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;
+font: 16pt &quot;华文琥珀&quot;;
+color:black;</string>
+       </property>
+       <property name="text">
+        <string>6-斑点狗</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="german">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>730</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>德牧犬极其温顺善良，自信开朗，自控力强，敏捷，聪明好斗。</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>5000</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;
+font: 16pt &quot;华文琥珀&quot;;
+color:black;</string>
+       </property>
+       <property name="text">
+        <string>7-德国牧羊犬</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="husky">
+       <property name="geometry">
+        <rect>
+         <x>700</x>
+         <y>730</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>哈士奇好动，精力旺盛，对任何人都温顺，看家能力基本为零。</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>5000</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;
+font: 16pt &quot;华文琥珀&quot;;
+color:black;</string>
+       </property>
+       <property name="text">
+        <string>8-哈士奇</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="shetland">
+       <property name="geometry">
+        <rect>
+         <x>860</x>
+         <y>730</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>喜乐蒂犬聪明伶俐，活泼好动，忠于主人，但对陌生人存有戒心，警觉性高</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>5000</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;
+font: 16pt &quot;华文琥珀&quot;;
+color:black;</string>
+       </property>
+       <property name="text">
+        <string>9-喜乐蒂牧羊犬</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="doberman">
+       <property name="geometry">
+        <rect>
+         <x>1100</x>
+         <y>730</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="toolTip">
+        <string>杜宾犬是天生的警卫犬，性格胆大，聪明机敏，警惕坚定，忠诚且勇敢。</string>
+       </property>
+       <property name="toolTipDuration">
+        <number>5000</number>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;
+font: 16pt &quot;华文琥珀&quot;;
+color:black;</string>
+       </property>
+       <property name="text">
+        <string>10-杜宾犬</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_adopt">
+       <property name="geometry">
+        <rect>
+         <x>1100</x>
+         <y>30</y>
+         <width>131</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 211, 160);
+font: 20pt &quot;华文琥珀&quot;;
+background-image: url(:/main/img/store.png);
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>就它了</string>
+       </property>
+      </widget>
+      <widget class="QSpinBox" name="spinBox_which">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>34</y>
+         <width>121</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>851</x>
+         <y>34</y>
+         <width>111</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 211, 160);
+font: 20pt &quot;华文琥珀&quot;;
+background-image: url(:/main/img/store.png);
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>选择编号</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="help1">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/help/img/love.png);</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_backehome">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 20pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string>回到游戏</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_next1">
+       <property name="geometry">
+        <rect>
+         <x>1080</x>
+         <y>690</y>
+         <width>151</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 20pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string>下一页</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="help2">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/help/img/balance.png);</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_backhome_10">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 20pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string>回到游戏</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_next_2">
+       <property name="geometry">
+        <rect>
+         <x>1080</x>
+         <y>690</y>
+         <width>151</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 20pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string>下一页</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_up_1">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>690</y>
+         <width>151</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 20pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string>上一页</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="help3">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/help/img/energy.png);</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_backhome_3">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 20pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string>回到游戏</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_next_5">
+       <property name="geometry">
+        <rect>
+         <x>1080</x>
+         <y>690</y>
+         <width>151</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 20pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string>下一页</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_up_2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>690</y>
+         <width>151</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 20pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string>上一页</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="help4">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/help/img/newnew.png);</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_backhome_">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 20pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string>回到游戏</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_up_5">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>690</y>
+         <width>151</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 20pt &quot;华文琥珀&quot;;</string>
+       </property>
+       <property name="text">
+        <string>上一页</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="save">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/saveandread/img/save.png);</string>
+      </property>
+      <widget class="QPushButton" name="save1">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>180</y>
+         <width>311</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="save2">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>333</y>
+         <width>311</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="save3">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>485</y>
+         <width>311</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="save4">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>637</y>
+         <width>311</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="save_exit">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>131</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 211, 160);
+font: 20pt &quot;华文琥珀&quot;;
+background-image: url(:/main/img/store.png);
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>回家</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="read">
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/saveandread/img/read.png);</string>
+      </property>
+      <widget class="QPushButton" name="read1">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>170</y>
+         <width>311</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="reset1">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>160</y>
+         <width>85</width>
+         <height>85</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/saveandread/img/restart.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="reset2">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>310</y>
+         <width>85</width>
+         <height>85</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/saveandread/img/restart.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="reset3">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>460</y>
+         <width>85</width>
+         <height>85</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/saveandread/img/restart.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="reset4">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>615</y>
+         <width>85</width>
+         <height>85</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/saveandread/img/restart.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="read2">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>322</y>
+         <width>311</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="read3">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>474</y>
+         <width>311</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="read4">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>628</y>
+         <width>311</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="read_exit">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>131</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 211, 160);
+font: 20pt &quot;华文琥珀&quot;;
+background-image: url(:/main/img/store.png);
+color:white;</string>
+       </property>
+       <property name="text">
+        <string>回家</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
